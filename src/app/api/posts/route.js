@@ -1,4 +1,5 @@
-import {NextResponse} from 'next/server'
+import { NextResponse } from 'next/server'
+
 
 export async function GET() {
     return NextResponse.json({items: [
@@ -10,5 +11,7 @@ export async function GET() {
 }
 
 // export async function POST() {
-//     return NextResponse.json({hello: "POST"})
+//     // FORM DATA
+//     // API JSON POST DATA
+//     return NextResponse.json({hello: "abc"})
 // }
